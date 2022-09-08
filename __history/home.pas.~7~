@@ -1,0 +1,57 @@
+unit home;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Imaging.pngimage,
+  Vcl.StdCtrls;
+
+type
+  Tform_login = class(TForm)
+    Panel1: TPanel;
+    Panel2: TPanel;
+    Panel3: TPanel;
+    Panel4: TPanel;
+    Image1: TImage;
+    Panel5: TPanel;
+    Panel6: TPanel;
+    Panel7: TPanel;
+    Panel9: TPanel;
+    Label2: TLabel;
+    Edit2: TEdit;
+    Panel10: TPanel;
+    Panel11: TPanel;
+    Label3: TLabel;
+    Edit3: TEdit;
+    Panel12: TPanel;
+    Panel8: TPanel;
+    CheckBox2: TCheckBox;
+    Image2: TImage;
+    Image3: TImage;
+    Panel13: TPanel;
+    Panel14: TPanel;
+    Panel15: TPanel;
+    Image4: TImage;
+    Panel16: TPanel;
+    Panel17: TPanel;
+    Label4: TLabel;
+    Panel18: TPanel;
+    Label5: TLabel;
+    Panel19: TPanel;
+    Label6: TLabel;
+    Image5: TImage;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  form_login: Tform_login;
+
+implementation
+
+{$R *.dfm}
+
+end.
